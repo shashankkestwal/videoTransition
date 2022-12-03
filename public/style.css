@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color: aqua;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border: 2px #8d8741 solid;
+    position: absolute;
+    visibility: hidden;
+    transition: ease-in 3s;
+    border-radius: 10%;
+    color: #05386b;
+    background-color: #fbeec1;
+    padding: 10px;
+    font-size: large;
+}
+a { 
+    color: inherit;
+    text-decoration: none;
+} 
+#first {
+    top: 10px;
+    left: 10px;
+}
+#video1{
+    bottom: 10%;
+    left: 25%;
+}
+#video2{
+    bottom: 10%;
+    right: 25%;
+}
